@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+//After API fetched
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=c7dbba92";
 
 const App = () => {
