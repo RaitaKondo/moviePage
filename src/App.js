@@ -15,17 +15,17 @@ const App = () => {
     setMovies(data.Search);
   };
 
-  const movie1 = {
-    Title: "Bucky Larson: Born to Be a Star",
-    Year: "2011",
-    imdbID: "tt1411664",
-    Type: "movie",
-    Poster:
-      "https://m.media-amazon.com/images/M/MV5BMjIzMjY4MTk2M15BMl5BanBnXkFtZTcwNzQ3ODg3NQ@@._V1_SX300.jpg",
-  };
+  // const movie1 = {
+  //   Title: "Bucky Larson: Born to Be a Star",
+  //   Year: "2011",
+  //   imdbID: "tt1411664",
+  //   Type: "movie",
+  //   Poster:
+  //     "https://m.media-amazon.com/images/M/MV5BMjIzMjY4MTk2M15BMl5BanBnXkFtZTcwNzQ3ODg3NQ@@._V1_SX300.jpg",
+  // };
 
   useEffect(() => {
-    searchMovie("Bucky Larson");
+    searchMovie("Superman");
   }, []);
 
   return (
